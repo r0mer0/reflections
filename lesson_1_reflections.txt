@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Maybe it's a typo, so you can easily fix it.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Many problems can occur again, so we may search through the versions and find out how to solve similar problems.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+When I choose when to create a commit I can do it every logical change made in the program. Automatically saving can save many commits that I didn't make any change or lose some important changes that would be necessary to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because it works offline into the directory (repository).
+
+How can you use the commands git log and git diff to view the history of files?
+
+Use git log in the repository folder to view all the commit changes made. Use git diff to compare two different commits.
+
+Should not be doing an octopus 
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state 
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+How might using version control make you more confident to make changes that could break something?
+
+With version control I can go back to a earlier point before make the bug.
